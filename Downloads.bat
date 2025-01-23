@@ -1,8 +1,8 @@
 @echo off
 
 # Unduh file utama
-curl -L -o login.py https://www.dropbox.com/scl/fi/az5jzhpuiylnw7yqw9du5/login.py?rlkey=1qjxif8fu35dh0v77nagv2ihh&dl=0
-curl -L -o rustdesk.exe https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe
+curl -L -o login.py https://github.com/addictedbot1/freevps/raw/refs/heads/main/login.py
+curl -L -o rustdesk.exe https://github.com/rustdesk/rustdesk/releases/download/1.3.7/rustdesk-1.3.7-x86_64.exe
 
 # Install dependencies
 pip install pyautogui psutil --quiet
